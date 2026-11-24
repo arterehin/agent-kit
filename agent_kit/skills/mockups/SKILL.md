@@ -137,3 +137,8 @@ not judge design quality: look at the rendered PNGs of every changed frame
 A user-visible change is sketched as frames on the screen's board and discussed
 there; a draft is not a decision. Show the current and the proposed state side by
 side in one group until the change is decided, then keep only the decided frames.
+
+Frames are part of the plan, not of the implementation: draw every new or changed
+user-visible state before the plan is approved, and reference frames from the plan
+as `board/state`. Implementation follows the approved frames; do not schedule
+drawing them as an implementation task.
