@@ -1,0 +1,107 @@
+{
+  "bulletproof-react": {
+    "title": "Bulletproof React — application architecture",
+    "repo": "alan2207/bulletproof-react",
+    "ref": "9506629ed003a561c6627735480cce4994244bb4",
+    "license": "LICENSE",
+    "include": ["README.md", "LICENSE", "docs/*.md", "docs/assets/logo.svg", "docs/assets/unidirectional-codebase.png"]
+  },
+  "tanstack-query": {
+    "title": "TanStack Query — React documentation",
+    "repo": "TanStack/query",
+    "package": "@tanstack/react-query",
+    "ref": "refs/tags/@tanstack/react-query@{version}",
+    "license": "LICENSE",
+    "include": ["LICENSE", "docs/framework/react/**/*.md", "docs/eslint/*.md", "docs/community-resources.md"],
+    "exclude": ["docs/framework/react/guides/migrating-to-react-query-4.md", "docs/framework/react/guides/migrating-to-v5.md"]
+  },
+  "tanstack-router": {
+    "title": "TanStack Router — guides and API",
+    "repo": "TanStack/router",
+    "package": "@tanstack/react-router",
+    "ref": "refs/tags/@tanstack/react-router@{version}",
+    "license": "LICENSE",
+    "include": [
+      "LICENSE",
+      "docs/router/guide/*.md",
+      "docs/router/api/**/*.md",
+      "docs/router/routing/*.md",
+      "docs/router/integrations/*.md",
+      "docs/router/overview.md",
+      "docs/router/faq.md",
+      "docs/router/decisions-on-dx.md",
+      "docs/router/how-to/setup-authentication.md",
+      "docs/router/how-to/setup-auth-providers.md",
+      "docs/router/how-to/setup-rbac.md",
+      "docs/router/installation/with-vite.md",
+      "docs/router/installation/with-rspack.md",
+      "docs/router/installation/with-webpack.md",
+      "docs/router/installation/with-esbuild.md"
+    ],
+    "exclude": ["docs/router/guide/internationalization-i18n.md"]
+  },
+  "nestjs": {
+    "title": "NestJS — selected documentation",
+    "repo": "nestjs/docs.nestjs.com",
+    "ref": "1f5b656893fd66cedd38ed355a1ee4a10f4bf22e",
+    "license": "LICENSE",
+    "include": [
+      "LICENSE",
+      "content/modules.md",
+      "content/controllers.md",
+      "content/components.md",
+      "content/pipes.md",
+      "content/exception-filters.md",
+      "content/guards.md",
+      "content/interceptors.md",
+      "content/fundamentals/dependency-injection.md",
+      "content/fundamentals/unit-testing.md",
+      "content/application/validation.md",
+      "content/application/serialization.md",
+      "content/application/configuration.md",
+      "content/http/versioning.md",
+      "content/openapi/introduction.md",
+      "content/openapi/types-and-parameters.md",
+      "content/openapi/operations.md",
+      "content/openapi/security.md",
+      "content/openapi/decorators.md",
+      "content/openapi/other-features.md",
+      "content/faq/http-adapter.md",
+      "content/faq/global-prefix.md",
+      "content/data/prisma.md",
+      "content/recipes/swc.md"
+    ],
+    "referencedAssets": {"pattern": "/assets/([\\w./-]+\\.(?:png|jpe?g|svg|gif))", "root": "src/assets"}
+  },
+  "vercel-react": {
+    "title": "Vercel — React best practices",
+    "repo": "vercel-labs/agent-skills",
+    "ref": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+    "license": "MIT, declared in the upstream README (no standalone license file at this commit)",
+    "include": ["skills/react-best-practices/rules/*.md"],
+    "strip": "skills/react-best-practices/"
+  },
+  "vercel-composition": {
+    "title": "Vercel — React composition patterns",
+    "repo": "vercel-labs/agent-skills",
+    "ref": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+    "license": "MIT, declared in the upstream README (no standalone license file at this commit)",
+    "include": ["skills/composition-patterns/rules/*.md"],
+    "strip": "skills/composition-patterns/"
+  },
+  "web-interface-guidelines": {
+    "title": "Vercel — Web Interface Guidelines checklist",
+    "repo": "vercel-labs/web-interface-guidelines",
+    "ref": "434b7f91364665f2f733b310ec54809bf8f37937",
+    "license": "LICENSE",
+    "include": ["command.md", "LICENSE"]
+  },
+  "shadcn": {
+    "title": "shadcn/ui — composition, forms, styling and icon rules",
+    "repo": "shadcn-ui/ui",
+    "ref": "f50887ae68d0fdcbfbe86b57be08af94a4c88a68",
+    "license": "LICENSE.md",
+    "include": ["LICENSE.md", "skills/shadcn/rules/composition.md", "skills/shadcn/rules/forms.md", "skills/shadcn/rules/icons.md", "skills/shadcn/rules/styling.md"],
+    "strip": "skills/shadcn/"
+  }
+}

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-kit"
+version = "0.1.0"
+description = "Project tooling shared by coding agents: vendored engineering guides and generated wireframe mockups."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+agent-kit = "agent_kit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["agent_kit*"]
+
+[tool.setuptools.package-data]
+agent_kit = ["guides/sources.json", "mockups/*.mjs", "skills/**/*"]
