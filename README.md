@@ -19,7 +19,7 @@ produces is plain files in the project, so every agent reads the same material.
 ## Run
 
 ```
-uvx --from git+https://github.com/<owner>/agent-kit@<tag> agent-kit <command>
+uvx --from git+https://github.com/arterehin/agent-kit@v0.1.0 agent-kit <command>
 ```
 
 Pin the tag in the project, for example as `package.json` scripts, so every
